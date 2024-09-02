@@ -1,0 +1,206 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../Images/back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  scroll-behavior: auto; /* Disable smooth scrolling */
+  overflow-x: hidden; /* Ensure no horizontal scroll */
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: flex-start; /* Align content at the top */
+  min-height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove default margin */
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px; /* Rounded corners */
+  margin-top: 2vh;
+}
+
+section {
+  width: 90%;
+  padding: 60px 40px; /* Add padding for sections */
+  height: 100vh; /* Ensure sections are full height */
+  margin: 1em;
+  background-color: #fcfcfc;
+}
+
+.Sections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#about,
+#contact {
+  min-height: 85vh;
+  height: auto;
+}
+
+#project,
+#experience {
+  height: auto;
+}
+
+#footer {
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+  width: 85%;
+}
+
+.section-Head {
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about,
+.experience {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center items */
+  justify-content: center; /* Center items vertically */
+  width: 100%; /* Full width */
+}
+
+.about-content,
+.experience-content {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: center; /* Center items */
+  max-width: 800px; /* Optional: limit max width */
+  width: 100%; /* Full width */
+}
+
+.experience-card,
+.about-card {
+  width: 280px; /* Fixed width for cards */
+  max-width: 100%; /* Ensure it fits within the container */
+  margin: 10px; /* Space around cards */
+}
+
+#scrollToTopBtn {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  bottom: 20px; /* Place it 20px above the bottom */
+  right: 30px; /* Place it 30px from the right */
+  z-index: 99; /* Sit on top */
+  font-size: 25px; /* Increase font size */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #007bff; /* Set a background color */
+  color: white; /* Text color */
+  padding: 10px; /* Some padding */
+  cursor: pointer; /* Cursor on hover */
+  box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5); /* Add blue tint to the sides */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+#scrollToTopBtn:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  transform: scale(1.3); /* Increase size by 30% on hover */
+  box-shadow: 0px 0px 20px rgba(0, 86, 179, 0.7); /* Enhance blue tint on hover */
+}
+
+#resetColorBtn {
+  border-radius: 10%;
+  width: 90px;
+  height: 60px;
+  background-color: #007bff;
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: fixed;
+  display: none;
+  bottom: 20px;
+  left: 20px;
+  z-index: 100;
+  box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5); /* Add blue tint to the sides */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+#resetColorBtn:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  transform: scale(1.3); /* Increase size by 30% on hover */
+  box-shadow: 0px 0px 20px rgba(0, 86, 179, 0.7); /* Enhance blue tint on hover */
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-content {
+  margin-bottom: 10px;
+}
+
+#copyright {
+  margin-bottom: 10px;
+}
+
+.footer-nav {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  margin-top: 10px;
+}
+
+.social-link {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}

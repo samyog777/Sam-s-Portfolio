@@ -1,0 +1,288 @@
+#about {
+  /* margin-top: 1vh; */
+  height: 150vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: flex-start;
+}
+
+#about h1 {
+  padding-top: 1vh;
+  margin-bottom: 5vh;
+}
+
+.intro-container {
+  margin-top: -1vh;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: url("/Images/Profile.jpeg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  color: rgb(12, 212, 149); 
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.intro-content {
+  margin-top: 10vh;
+  background: rgba(0, 0, 0, 0.555);
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.intro-content h1 {
+  margin: 0;
+  font-size: 2.5rem; /* Larger font size */
+}
+
+.intro-content h2 {
+  margin: 10px 0;
+  font-size: 1.8rem;
+  position: relative;
+  color: white;
+}
+
+.intro-content h2 .dynamic-role {
+  display: inline-block; /* Required for animations */
+  font-weight: bold;
+  color: #007bff; /* Initial color */
+  opacity: 0;
+  transform: translateX(-100%) scale(1.5); /* Start outside and larger */
+  transition: transform 0.8s ease, opacity 0.8s ease, color 0.8s ease;
+  border: 1px dotted rgb(255, 255, 255);
+}
+
+.intro-content h2 .dynamic-role.show {
+  opacity: 1;
+  transform: translateX(0) scale(1); /* Slide in and normalize size */
+  color: #ff5722; /* Highlight color */
+  text-shadow: 0 0 8px rgba(255, 87, 34, 0.7); /* Add a glow effect */
+}
+
+.intro-content p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.about-card {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  /* max-width: 800px; */
+  text-align: left; /* Align text left for better readability */
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.progress-bar {
+  background-color: #007bff;
+}
+.profile-image {
+  width: 100%;
+  border-radius: 50%;
+}
+.profile-info {
+  padding: 10px;
+}
+.progress {
+  height: 8px;
+}
+.box-pl2 {
+  padding-left: 2rem;
+}
+
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+/* ABOUT */
+
+.ABOUT_ME {
+  margin-top: 80px;
+}
+
+.about-me-card {
+  position: relative;
+  width: 600px; /* Increased width */
+  border-radius: 20px; /* More rounded corners */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  padding: 25px; /* Increased padding */
+  transition: transform 0.3s, border 0.3s;
+  border: 2px solid #007bff; /* Blue border */
+  opacity: 0; /* Start invisible */
+  transform: translateY(-20px); /* Start slightly above */
+  animation: fadeInUp 0.5s forwards; /* Animation */
+  text-align: center;
+}
+
+@media(max-width: 660px) {
+  .about-me-card{
+    width: 500px;
+  }
+}
+@media(max-width: 560px) {
+  .about-me-card{
+    width: 400px;
+  }
+}
+@media(max-width: 460px) {
+  .about-me-card{
+    width: 300px;
+  }
+}
+
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Space below header */
+}
+
+.profile-img {
+  width: 90px; /* Profile image size */
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-right: 15px; /* Space between image and name */
+}
+
+.name {
+  font-size: 22px; /* Increased font size */
+  font-weight: bold;
+  color: #007bff; /* Blue color for name */
+  text-align: justify;
+}
+
+.person {
+  text-align: center;
+}
+
+.card-content {
+  color: #333;
+}
+
+.skills-title {
+  font-size: 20px; /* Increased font size */
+  font-weight: bold;
+  color: #007bff;
+  margin: 15px 0; /* Space above and below */
+}
+
+.skills {
+  margin: 15px 0;
+  width: 100%;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0; /* Increased margin */
+  transition: background-color 0.3s;
+  padding: 8px; /* Added padding */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f8f9fa; /* Light background for skill entries */
+}
+
+.skill:hover {
+  background-color: #e2e6ea; /* Darker background on hover */
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  width: 80%; /* Increased width for progress bars */
+  height: 14px; /* Increased height for better visibility */
+  position: relative;
+  margin-left: 10px; /* Space between skill and progress bar */
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.3s;
+  background-color: #007bff; /* Blue color for progress bar */
+}
+
+.percentage {
+  margin-left: 10px; /* Space between bar and text */
+  font-size: 14px; /* Increased font size */
+  color: #000; /* Green color for percentage */
+  width: 50px; /* Fixed width for alignment */
+  text-align: left; /* Align text to the left */
+}
+
+.about-me-card:hover {
+  border-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05) translateY(-3px) rotate(1deg); /* Tilt effect */
+}
+
+.card-content p {
+  line-height: 1.6;
+  font-size: 16px; /* Increased font size */
+  color: #555;
+  margin: 10px 0;
+}
+
+.projectLink {
+  border: 2px solid;
+  border: double white;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  display: inline-block; /* Ensure the element scales in place */
+  transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.projectLink:hover {
+  transform: scale(1.2);
+  z-index: 100;
+}
+
+.content {
+  position: relative; /* Ensure the container is positioned */
+  overflow: hidden; /* Prevent the card from overflowing */
+}
+
+.card {
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth scaling and shadow transition */
+  transform-origin: center center; /* Scale from the center */
+  overflow: hidden; /* Ensures content stays within the card */
+}
+
+.card:hover {
+  transform: scale(1.1); /* Slightly increase the size */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Add a magical shadow effect */
+  transform: scale(1.1) rotate(1deg); /* Slight rotation for dynamic effect */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 255, 255, 0.5); /* Add a subtle glow */
+}

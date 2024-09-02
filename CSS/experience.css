@@ -1,0 +1,39 @@
+.experience-content {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap */
+    justify-content: center; /* Center cards */
+    gap: 20px; /* Spacing between cards */
+}
+
+.experience-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px; /* Fixed width for cards */
+    max-width: 100%; /* Ensure it fits within the container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Smooth transition for hover */
+}
+
+.experience-card:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.company {
+    margin: 0;
+    font-size: 1.2em; /* Larger font size for company name */
+}
+
+.position {
+    margin: 5px 0;
+    font-weight: bold; /* Bold for position */
+}
+
+.duration {
+    color: #555; /* Gray color for duration */
+}
+
+.description {
+    margin-top: 10px;
+}
