@@ -7,7 +7,7 @@ export const data = [
       "https://github.com/samyog777/DSA",
     ],
     details: [
-      "This is my second year project in college, I used jframe of java to complete this task. It is the first project i did with plain java.",
+      "This is my second year project in college, I used J-frame of java to complete this task. It is the first project i did with plain java.",
       "I am currently doing DSA in java.",
     ],
     Images: ["../Images/JAVA/Java_Project1.png", "../Images/DSA.jpg"],
@@ -16,9 +16,7 @@ export const data = [
     language: "Flask/Django",
     projects: ["CS50 Project"],
     links: ["https://github.com/samyog777/Django"],
-    details: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio cum perspiciatis nulla numquam",
-    ],
+    details: ["NULL"],
     Images: ["../Images/NoImage.jpg"],
   },
   {
@@ -27,7 +25,7 @@ export const data = [
       "Linear Regression",
       "Value of Pi",
       "Finding Prime in txt",
-      "Blue Image",
+      "Blur Image",
     ],
     links: [
       "https://github.com/samyog777/All-task-of-C-Program/tree/master/Task1",
@@ -36,10 +34,10 @@ export const data = [
       "https://github.com/samyog777/All-task-of-C-Program/tree/master/Task4",
     ],
     details: [
-      "This is the Projec of C, where we can find the linear regression of from data of another files (multiple files).",
-      "This is one of the most interesting project, Here we can find the perfect value of pi. We can go as we like or (UNITL OUR PC CAN HANDELS) !",
-      "In this project we can find the number of prime number in a dataset or txt file with user input number of thereads",
-      "In this project we can blue a certain png image to user input number of blur like 5px, 10px or 20px.",
+      "This is the Project of C, where we can find the linear regression of from data of another files (multiple files).",
+      "This is one of the most interesting project, Here we can find the perfect value of pi. We can go as we like or (UNTIL OUR PC CAN HANDEL) !",
+      "In this project we can find the number of prime number in a dataset or txt file with user input number of threads",
+      "In this project we can blur a certain png image to user input number of blur like 5px, 10px or 20px.",
     ],
     Images: [
       "../Images/C/C_Output1.png",
@@ -51,7 +49,7 @@ export const data = [
   {
     language: "React",
     projects: [
-      "Rnadom Projects/ Collections",
+      "Random Projects/ Collections",
       "Text Editor",
       "Digital Clock",
       "Stop Watch",
@@ -81,7 +79,7 @@ export const data = [
     links: [
       "https://github.com/samyog777/PHP-for-fun",
       "https://github.com/samyog777/CAR",
-      "https://google.com",
+      "http://samyogweatherapp.000.pe/?i=1",
     ],
     details: [
       "I learned php from youtube channel called 'BRO CODE'. There are small many projects. He is really great teacher.",
@@ -95,13 +93,18 @@ export const data = [
     ],
   },
   {
-    language: "Other",
-    projects: ["TEST1", "TEST1"],
+    language: "Other(Html,Css,JS)",
+    projects: ["Twitter Clone", "Movie Review App", "Hostel Management System"],
     links: [
-      "https://github.com/samyog777/PHP-for-fun",
-      "https://github.com/samyog777/CAR",
+      "https://samyog777.github.io/Twitter-Clone/",
+      "https://github.com/samyog777/Movie-Review",
+      "https://github.com/samyog777/Collaborative-Development-HMS-Project",
     ],
-    details: ["TEST", "TEST"],
+    details: [
+      "THis is the simple UI clone of twitter. It only have html and css.",
+      "This is the app where we can give review to the movies ",
+      "This is the collaborate project of second year. We were 4 people in the group. We use React and Node to complete task.",
+    ],
     Images: ["../Images/NoImage.jpg", "../Images/NoImage.jpg"],
   },
 ];
