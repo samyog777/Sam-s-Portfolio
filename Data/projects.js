@@ -105,6 +105,10 @@ export const data = [
       "This is the app where we can give review to the movies ",
       "This is the collaborate project of second year. We were 4 people in the group. We use React and Node to complete task.",
     ],
-    Images: ["../Images/NoImage.jpg", "../Images/NoImage.jpg"],
+    Images: [
+      "../Images/Other/Twitter.png",
+      "../Images/Other/MovieReview.png",
+      "../Images/Other/HostelManagementSystem.png",
+    ],
   },
 ];
