@@ -1,5 +1,5 @@
 import { data } from "../Data/projects.js";
-console.log(data);
+// console.log(data);
 
 function createLanguageButton(language) {
   const buttonContainer = document.querySelector(".language-buttons");
