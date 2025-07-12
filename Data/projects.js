@@ -14,10 +14,16 @@ export const data = [
   },
   {
     language: "Flask/Django",
-    projects: ["CS50 Project"],
-    links: ["https://github.com/samyog777/Django"],
-    details: ["NULL"],
-    Images: ["../Images/NoImage.jpg"],
+    projects: ["CS50 Project", "FYP"],
+    links: [
+      "https://github.com/samyog777/Django",
+      "https://github.com/Final-Years-Codes/FYP-frontend-and-backend-/tree/master/Backend",
+    ],
+    details: [
+      "NULL",
+      "This is FYP which used django and rest framework as a backend.",
+    ],
+    Images: ["../Images/NoImage.jpg", ".../Images/Django/FYP.png"],
   },
   {
     language: "C",
@@ -59,18 +65,21 @@ export const data = [
       "https://github.com/samyog777/React_Project",
       "https://github.com/samyog777/BroCode/tree/master/DigitalClock",
       "https://github.com/samyog777/BroCode/tree/master/stop-watch",
+      "https://github.com/Final-Years-Codes/FYP-frontend-and-backend-/tree/master/Frontend/FYP_second",
     ],
     details: [
       "This project is about when i was learning react so it is the collection of all the things i learn so 'It is Random!'",
       "This is also a collection of many small project, We can edit document, like colors, font, remove extra spaces, etc.",
       "Just normal and single page application to see real time with best UI/UX",
       "Stop watch with start, reset and stop button using React.",
+      "This is my FYP which used React as frontend",
     ],
     Images: [
       "../Images/React/React1.png",
       "../Images/React/React2.png",
       "../Images/React/React3.png",
       "../Images/React/React4.png",
+      "../Images/React/FYP.png",
     ],
   },
   {
@@ -101,7 +110,7 @@ export const data = [
       "https://github.com/samyog777/Collaborative-Development-HMS-Project",
     ],
     details: [
-      "THis is the simple UI clone of twitter. It only have html and css.",
+      "This is the simple UI clone of twitter. It only have html and css.",
       "This is the app where we can give review to the movies ",
       "This is the collaborate project of second year. We were 4 people in the group. We use React and Node to complete task.",
     ],
@@ -110,5 +119,14 @@ export const data = [
       "../Images/Other/MovieReview.png",
       "../Images/Other/HostelManagementSystem.png",
     ],
+  },
+  {
+    language: "AI and ML",
+    projects: ["Car brand Classifier"],
+    links: ["https://samyog777.github.io/Twitter-Clone/"],
+    details: [
+      "This is my FYP which used Binary and multi-classes CNN to predict the is_car and its brands.",
+    ],
+    Images: ["../Images/AI/FYP.png"],
   },
 ];
