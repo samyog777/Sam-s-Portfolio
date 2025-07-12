@@ -23,7 +23,10 @@ export const data = [
       "NULL",
       "This is FYP which used django and rest framework as a backend.",
     ],
-    Images: ["../Images/NoImage.jpg", ".../Images/Django/FYP.png"],
+    Images: [
+      "../Images/NoImage.jpg",
+      "../Images/Django/FYP.png",
+    ],
   },
   {
     language: "C",
@@ -55,27 +58,27 @@ export const data = [
   {
     language: "React",
     projects: [
-      "Random Projects/ Collections",
+      // "Random Projects/ Collections",
       "Text Editor",
       "Digital Clock",
       "Stop Watch",
     ],
     links: [
-      "https://github.com/samyog777/BroCode/tree/master/Bro-Code",
+      // "https://github.com/samyog777/BroCode/tree/master/Bro-Code",
       "https://github.com/samyog777/React_Project",
       "https://github.com/samyog777/BroCode/tree/master/DigitalClock",
       "https://github.com/samyog777/BroCode/tree/master/stop-watch",
       "https://github.com/Final-Years-Codes/FYP-frontend-and-backend-/tree/master/Frontend/FYP_second",
     ],
     details: [
-      "This project is about when i was learning react so it is the collection of all the things i learn so 'It is Random!'",
+      // "This project is about when i was learning react so it is the collection of all the things i learn so 'It is Random!'",
       "This is also a collection of many small project, We can edit document, like colors, font, remove extra spaces, etc.",
       "Just normal and single page application to see real time with best UI/UX",
       "Stop watch with start, reset and stop button using React.",
       "This is my FYP which used React as frontend",
     ],
     Images: [
-      "../Images/React/React1.png",
+      // "../Images/React/React1.png",
       "../Images/React/React2.png",
       "../Images/React/React3.png",
       "../Images/React/React4.png",
@@ -123,7 +126,9 @@ export const data = [
   {
     language: "AI and ML",
     projects: ["Car brand Classifier"],
-    links: ["https://samyog777.github.io/Twitter-Clone/"],
+    links: [
+      "https://github.com/Final-Years-Codes/FYP-frontend-and-backend-/tree/master/ML%20(AI)",
+    ],
     details: [
       "This is my FYP which used Binary and multi-classes CNN to predict the is_car and its brands.",
     ],
